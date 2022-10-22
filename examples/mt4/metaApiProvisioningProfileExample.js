@@ -4,7 +4,7 @@ let MetaApi = require('metaapi.cloud-sdk').default;
 // It is recommended to create accounts with automatic broker settings detection instead,
 // see metaApiSynchronizationExample.js
 
-let token = process.env.TOKEN || '<put in your token here>';
+let token = process.env.TOKEN || '<eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJlMjQyMzVjZDllNGVlYmNiYjFjNmRkOTEwOTMxMzYzMSIsInBlcm1pc3Npb25zIjpbXSwidG9rZW5JZCI6IjIwMjEwMjEzIiwiaWF0IjoxNjY2NDU0MTU4LCJyZWFsVXNlcklkIjoiZTI0MjM1Y2Q5ZTRlZWJjYmIxYzZkZDkxMDkzMTM2MzEifQ.PG_ocfHKGjREA26HwGGRv3jpwshBkiCOzZoc4s-swz-SbgNj2K6JOkn5A5l9Rw7cfctILbrIM6tMIQLNJ_4okWnQfdpoCz6H2oS6DAM4b9_2WBl4Dq9VJNrMEoLumb3Y-BzpaDtbp8VBBL9vXDca-fle-btqzbpNx4v3hf0BjY5NC_4_aMbXWtUmPQdkBGNzk0JWKC_XKMv-LHX2mpbu0Z0lnk4EJWqgPguvx9d6bKfWkJiFP6nTnE_NjR-PdQ6d1cjV3kjiVO4y79PWPqb8mLD81K5oxAHDJyUMxI_7KXl7srd3Q2utA988UIN1ZTtF1bPwztGgKQHrfS-d-6dz8JOumhMLtUIJKIfZaF72YQRLjq64Fv1U3Su9BX5gNPtw6j95zemr7QJzgu_NQp69NBoovoUcCOeS0ZBzS5N_YU2QAnYVGZn_gQnpISAVW6QgnLGUsdI8_ii0TP9gBGBmcf76LW0YjInOo7uzlFvWTz6kPwAZuIvNn6COnicZkPh3Gv1fauRMuEJ5UKm3W7bjpmOUQ5zjKdWlYIQm5_Qz3g2UPQ8__R-sCVBo5otE3w-zfzGNovoew5gK2FR1xRDfzDeG43RVeiAqJ__cOf_pogeMyCSe33o9ZDMkTv1SJ0RD5mUb2r0cLmUY97FL0J5ZcSc-gmJ7_60qcuVyAUC6S5o>';
 let login = process.env.LOGIN || '<put in your MT login here>';
 let password = process.env.PASSWORD || '<put in your MT password here>';
 let serverName = process.env.SERVER || '<put in your MT server name here>';
