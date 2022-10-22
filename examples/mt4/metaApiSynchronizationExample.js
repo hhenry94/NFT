@@ -2,7 +2,7 @@ let MetaApi = require('metaapi.cloud-sdk').default;
 
 // Note: for information on how to use this example code please read https://metaapi.cloud/docs/client/usingCodeExamples
 
-let token = process.env.TOKEN || '<put in your token here>';
+let token = process.env.TOKEN || '<eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJlMjQyMzVjZDllNGVlYmNiYjFjNmRkOTEwOTMxMzYzMSIsInBlcm1pc3Npb25zIjpbXSwidG9rZW5JZCI6IjIwMjEwMjEzIiwiaWF0IjoxNjY2NDUzNTMzLCJyZWFsVXNlcklkIjoiZTI0MjM1Y2Q5ZTRlZWJjYmIxYzZkZDkxMDkzMTM2MzEifQ.EZwTPhwrz9ycyatBSg6Ui4MLxC2QR4oYEyqvYVPjwRkyDzLBNb7-dlz6jSvL56ikVdWFnyrL_8CBuYWoY-inA09fMei6NM2vltBS-zaEascG8vKYeTdY89EvHZsuBGkhzGhwNzikJdxUnCu9Mi55C4A8ub--R5C9D0ZDvBCHdeU0Jw00ytUdcL7vrzaWKVJ6W3Zz_zL1Lr7DmuKyDqRmjDbYGbRGdVy0DMwKx9T-gpR43BpJI59xJsd6MNjNRjHrJnA-T5FgDCJKQpF6Z2qR-yDbqZ4tCzofH9Xq4yPq_E_tiY_A5dW-XQl1ycd9K_3m29WgE_g9el5q_APM0Nx4XRCYuJhjBQTdsIyu9EC0ft8QaeFvjAodoSeFc6N-mle6H2-CUNF0EPDDELlMURh68BePbIacYuD3ekD9Pw4XBtN9EO9RY461GOyPFc9bE3VPnyqJBuvIUvRAq1ahvcIl3HLrsKoTR55EVl0nT8vBfqIMXseNLmx8ZgFwH3t7Yp7M-DSAtGYG517kbp5uD8pKwPGtZGwJYYih_-hHQssJHzbnlERlNgYGM4qtX8b9wXye4NDCdnukKkLYzNK2laUhRk2J_owKLV8trsS_BED_EAwfyj_vT12D4eGAt-Pdjmm0Xj425QNfIskCkKuVeIS9heVsbnxDHA1XgBYQn7kNyV4>';
 let login = process.env.LOGIN || '<put in your MT login here>';
 let password = process.env.PASSWORD || '<put in your MT password here>';
 let serverName = process.env.SERVER || '<put in your MT server name here>';
